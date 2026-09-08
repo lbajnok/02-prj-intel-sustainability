@@ -8,11 +8,20 @@
 </head>
 <body>
 
+  <div class="top-bar">
+    <span>Intel</span>
+    <span class="top-bar-divider"></span>
+    <span>Sustainability</span>
+  </div>
+
   <!-- Header / Hero Section -->
   <header>
     <div>
       <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
-      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
+      <div class="hero-badge">Innovation + Responsibility</div>
+      <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank" rel="noopener noreferrer" aria-label="Visit Intel's official website">
+        <img src="img/intel-header-logo.svg" alt="Intel Logo" />
+      </a>
       <!-- Main Heading -->
       <h1>
         Sustainability Through the Ages
@@ -20,124 +29,190 @@
 
       <!-- Subheading / Description -->
       <p>
-        Explore Intel's journey through time, discovering how our commitment
-        to innovation has shaped a more sustainable future for technology 
-        and our planet.
+        Discover how Intel combines innovation and responsibility
+        to build a more sustainable future for technology and our planet.
       </p>
     </div>
   </header>
 
   <!-- Timeline Cards Section -->
-  <section>
+  <section class="timeline">
 
     <!-- Card 1: 1968 -->
-    <div>
+    <div class="timeline-item">
       <h2>1968</h2>
-      <h3>Intel Founded</h3>
-      <!-- Add image -->
-      <p>
-        Robert Noyce and Gordon Moore rename the newly formed company 
-        NM Electronics to Intel Corporation, laying the foundation for 
-        decades of technological innovation.
-      </p>
+      <div class="timeline-content">
+        <h3>Intel Founded</h3>
+        <div class="image-hover-box">
+          <img src="img/founded.svg" alt="Illustration of Intel's 1968 semiconductor laboratory" />
+          <div class="hover-text">
+            Robert Noyce and Gordon Moore rename NM Electronics as Intel Corporation, beginning a lasting legacy of technological innovation.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 2: 1971 -->
-    <div>
+    <div class="timeline-item">
       <h2>1971</h2>
-      <h3>First Microprocessor</h3>
-      <!-- Add image -->
-      <p>
-        Intel debuts the 4004, the world's first commercial microprocessor, 
-        igniting the microprocessor revolution and propelling the future 
-        of computing devices.
-      </p>
+      <div class="timeline-content">
+        <h3>First Microprocessor</h3>
+        <div class="image-hover-box">
+          <img src="img/microprocessor-4004.svg" alt="Illustration of Intel's 4004 microprocessor" />
+          <div class="hover-text">
+            Intel introduces the 4004, the world's first commercial microprocessor, helping launch a new era of smaller and more powerful computers.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 3: 1978 -->
-    <div>
+    <div class="timeline-item">
       <h2>1978</h2>
-      <h3>8086 Processor</h3>
-      <!-- Add image -->
-      <p>
-        Launch of the 8086 processor, establishing the x86 architecture 
-        that drives countless PCs and servers in the modern era.
-      </p>
+      <div class="timeline-content">
+        <h3>8086 Processor</h3>
+        <div class="image-hover-box">
+          <img src="img/processor-8086.svg" alt="Illustration of Intel's 8086 processor" />
+          <div class="hover-text">
+            Intel launches the 8086 processor, introducing the x86 architecture that would power generations of personal computers and servers.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 4: 1985 -->
-    <div>
+    <div class="timeline-item">
       <h2>1985</h2>
-      <h3>386 Processor</h3>
-      <!-- Add image -->
-      <p>
-        Intel introduces the 386 processor with 32-bit architecture, 
-        ushering in a new era of performance and multitasking for 
-        personal computers.
-      </p>
+      <div class="timeline-content">
+        <h3>386 Processor</h3>
+        <div class="image-hover-box">
+          <img src="img/processor-386.svg" alt="Illustration of Intel's 386 processor" />
+          <div class="hover-text">
+            Intel introduces the 386 processor and its 32-bit architecture, bringing faster performance and improved multitasking to personal computers.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 5: 2006 -->
-    <div>
+    <div class="timeline-item">
       <h2>2006</h2>
-      <h3>Peak GHG Emissions</h3>
-      <!-- Add image -->
-      <p>
-        This year marks Intel's highest annual greenhouse gas emissions 
-        for operations. Over subsequent years, Intel invests heavily in 
-        chemical abatement, renewable energy, and energy-efficient 
-        manufacturing to reverse this trend.
-      </p>
+      <div class="timeline-content">
+        <h3>Peak GHG Emissions</h3>
+        <div class="image-hover-box">
+          <img src="img/emissions-peak.svg" alt="Illustration of the 2006 greenhouse gas emissions peak" />
+          <div class="hover-text">
+            Intel reaches its highest annual operational greenhouse gas emissions in 2006. In the years that follow, the company invests in cleaner manufacturing, renewable energy, and emissions-reduction technologies.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 6: 2020 -->
-    <div>
+    <div class="timeline-item">
       <h2>2020</h2>
-      <h3>RISE Strategy</h3>
-      <!-- Add image -->
-      <p>
-        Intel launches its RISE (Responsible, Inclusive, Sustainable, 
-        Enabling) strategy and 2030 goals, aiming to drive industry-wide 
-        progress on climate action, water stewardship, and waste reduction.
-      </p>
+      <div class="timeline-content">
+        <h3>RISE Strategy</h3>
+        <div class="image-hover-box">
+          <img src="img/rise-strategy.svg" alt="Illustration of Intel's RISE sustainability strategy" />
+          <div class="hover-text">
+            Intel introduces its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy and 2030 goals to support climate action, protect water resources, and reduce waste across the industry.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 7: 2022 -->
-    <div>
+    <div class="timeline-item">
       <h2>2022</h2>
-      <h3>Net-Zero By 2040</h3>
-      <!-- Add image -->
-      <p>
-        Intel announces its commitment to achieve net-zero greenhouse 
-        gas emissions (Scope 1 and 2) across its global operations 
-        by 2040, building on years of environmental initiatives.
-      </p>
+      <div class="timeline-content">
+        <h3>Net-Zero By 2040</h3>
+        <div class="image-hover-box">
+          <img src="img/net-zero-2040.svg" alt="Illustration of Intel's net-zero 2040 target" />
+          <div class="hover-text">
+            Intel commits to reaching net-zero Scope 1 and 2 greenhouse gas emissions across its global operations by 2040, building on years of environmental progress.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 8: 2023 -->
-    <div>
+    <div class="timeline-item">
       <h2>2023</h2>
-      <h3>Renewable Electricity</h3>
-      <!-- Add image -->
-      <p>
-        The company achieves 99% renewable electricity usage worldwide, 
-        helping to drastically lower carbon emissions and driving progress 
-        toward Intel's long-term sustainability goals.
-      </p>
+      <div class="timeline-content">
+        <h3>Renewable Electricity</h3>
+        <div class="image-hover-box">
+          <img src="img/renewable-electricity.svg" alt="Illustration of renewable electricity from wind and solar power" />
+          <div class="hover-text">
+            Intel reaches 99% renewable electricity use worldwide, reducing carbon emissions and moving closer to its long-term sustainability goals.
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Card 9: 2024 -->
-    <div>
+    <div class="timeline-item">
       <h2>2024</h2>
-      <h3>Sustainability Summit</h3>
-      <!-- Add image -->
-      <p>
-        Intel hosts its first Sustainability Summit, uniting suppliers, 
-        government officials, and industry leaders to collaborate on 
-        next-generation sustainable semiconductor manufacturing.
-      </p>
+      <div class="timeline-content">
+        <h3>Sustainability Summit</h3>
+        <div class="image-hover-box">
+          <img src="img/sustainability-summit.svg" alt="Illustration of Intel's sustainability summit" />
+          <div class="hover-text">
+            Intel hosts its first Sustainability Summit, bringing suppliers, government officials, and industry leaders together to advance more sustainable semiconductor manufacturing.
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <p>Scroll to view timeline | Hover over cards to learn more!</p>
+  <p>Scroll through the timeline | Hover over a card to learn more!</p>
+  <p class="github-link">
+    <a href="https://github.com/GCA-Classroom/02-prj-intel-sustainability" target="_blank" rel="noopener noreferrer">
+      View this project on GitHub
+    </a>
+  </p>
+  <div class="scroll-hint">Scroll</div>
+
+  <script>
+    const timeline = document.querySelector('.timeline');
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    function updateActiveCard() {
+      const timelineCenter = timeline.scrollLeft + timeline.clientWidth / 2;
+      let closestItem = timelineItems[0];
+      let smallestDistance = Number.POSITIVE_INFINITY;
+
+      timelineItems.forEach((item) => {
+        const itemCenter = item.offsetLeft + item.offsetWidth / 2;
+        const distance = Math.abs(itemCenter - timelineCenter);
+
+        if (distance < smallestDistance) {
+          smallestDistance = distance;
+          closestItem = item;
+        }
+      });
+
+      timelineItems.forEach((item) => {
+        item.classList.toggle('active', item === closestItem);
+      });
+    }
+
+    const hoverBoxes = document.querySelectorAll('.image-hover-box');
+
+    hoverBoxes.forEach((box) => {
+      const hoverText = box.querySelector('.hover-text');
+
+      box.addEventListener('wheel', (event) => {
+        const canScroll = hoverText.scrollHeight > hoverText.clientHeight;
+
+        if (canScroll) {
+          event.preventDefault();
+          hoverText.scrollTop += event.deltaY;
+        }
+      }, { passive: false });
+    });
+
+    timeline.addEventListener('scroll', updateActiveCard);
+    window.addEventListener('load', updateActiveCard);
+  </script>
 </body>
 </html>
